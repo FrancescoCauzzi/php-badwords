@@ -10,7 +10,18 @@
 
 <body>
   <header></header>
-  <main></main>
+  <main>
+    <form action="index.php" method="POST">
+      <label for="name">Parola da censurare:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+  </main>
   <footer></footer>
 
 </body>
