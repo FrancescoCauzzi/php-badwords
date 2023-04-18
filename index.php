@@ -22,19 +22,12 @@
         // The str_ireplace function performs a case-insensitive string replacement. 
         $modified_message = str_ireplace($name, "***", $message);
         
-        
         echo "<p>Your message is: $message. <br><br> The Word you want to censor is: '$name'</p>";
         echo "<br>";
         echo "<p>Your message is $message_length characters long.</p>";
         echo "<br>";        
         echo "<h4>Modified message</h4>";
-        echo $modified_message;
-        
-        
-        
-
-        
-        
+        echo $modified_message; 
         }
     ?>
     
